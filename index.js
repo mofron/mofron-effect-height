@@ -1,17 +1,16 @@
 /**
- * @file mofron-effect-fadepack/index.js
- * @brief fade-in,fade-out effect for mofron input component
+ * @file mofron-effect-height/index.js
+ * @brief height effect for mofron
  * @license MIT
  */
-const Fade = require("mofron-effect-fade");
 
 module.exports = class extends mofron.class.Effect {
     /**
      * initialize effect
      * 
-     * @param (mixed) 
+     * @param (mixed) size: from,to height
      *                key-value: effect config
-     * @short short
+     * @short height
      * @type private
      */
     constructor (p1) {
